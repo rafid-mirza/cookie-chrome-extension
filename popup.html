@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cookie Detector</title>
+    <script src="popup.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <h1> 
+    Cookie Detector
+  </h1>
+  <button style = "margin-top: 0px;
+  border-radius: 0px; position:absolute; top:0;
+  right:0; font-size: 15pt; cursor: pointer;
+  background-color: transparent;"
+  id = "close">
+    &#x2715;
+  </button>
+  
+  <form id="control-row">
+    <label for="input">Domain:</label>
+    <input type="text" id="input">
+    <br>
+    <button id="find">Find Cookies</button>
+  </form>
+  <span id="message" hidden></span>
+  <table id="cookieTable" class ="table" hidden>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Expiration Date</th>
+        <th>SameSite</th>
+        <th>Secure</th>
+      </tr>
+    </thead>
+  </table>
+  <h3 id = "summaryText" hidden>Summary: </h3>
+
+  <div id = "summary"></div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+html {
+    height: 300px;
+    width: 500px;      
+  }
+body {
+    background-color: powderblue;
+  }
+
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+div {
+  padding-bottom: 5%;
+}
+form {
+    display: inline-block;
+}
+h3 {
+  text-align: left;
+}
+form label {
+  font-weight:bold;
+  font-size: small;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.table {
+  width: 100%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding-top: 5%;
+}
+.table th {
+  text-align: left;
+  border-top: 2px solid #009578;
+  border-bottom: 2px solid #009578;
+}

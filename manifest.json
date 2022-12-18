@@ -1,0 +1,14 @@
+{
+  "name": "Cookie Data collection",
+  "manifest_version": 3,
+  "version": "1.0",
+  "permissions": ["cookies"],
+  "host_permissions": ["<all_urls>"],
+  "icons": { 
+    "16": "./icons/16.png"
+    },
+  "action": {
+    "default_icon": "./icons/16.png",
+    "default_popup": "popup.html"
+  }
+}
